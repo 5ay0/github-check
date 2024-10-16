@@ -1,0 +1,24 @@
+{
+  "name": "taller",
+  "version": "0.1.0",
+  "description": "Esta es una aplicacion de ejemplo",
+  "main": "main.js",
+  "scripts": {
+    "start": "tsx app.ts",
+    "dev": "tsx watch app.ts"
+  },
+  "keywords": [
+    "app",
+    "example",
+    "typescript"
+  ],
+  "author": "Saí Bello",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "tsx": "^4.19.1"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
